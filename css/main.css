@@ -617,7 +617,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   background-color: #27ae60;
 }
 .nephritis > span{
-  background-color: #191970;
+  background-color: #27ae60;
 }
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none;
