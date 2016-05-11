@@ -604,6 +604,21 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .asbestos > span{
   background-color: #7f8c8d;
 }
+.turqoise > span{
+  background-color: #43c6db;
+}
+.concrete > span{
+  background-color: #f2f2f2;
+}
+.orange > span{
+  background-color: #ffa500;
+}
+.alizarin > span{
+  background-color: #27ae60;
+}
+.nephritis > span{
+  background-color: #7f8c8d;
+}
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none;
   background-image: none;
