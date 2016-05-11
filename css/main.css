@@ -607,8 +607,8 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .turqoise > span{
   background-color: #43c6db;
 }
-.belizehole > span{
-  background-color: #c0392b;
+.concrete > span{
+  background-color: #f2f2f2;
 }
 .orange > span{
   background-color: #ffa500;
@@ -616,8 +616,8 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .alizarin > span{
   background-color: #27ae60;
 }
-.midnightblue > span{
-  background-color: #c0392b;
+.nephritis > span{
+  background-color: #7f8c8d;
 }
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none;
