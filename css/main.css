@@ -363,6 +363,36 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   margin: 0px;
   width: 100%;
 }
+/* ===== Portfolio Masonry (no empty gaps) ===== */
+#portfolio .portfolio-masonry{
+  column-count: 1;
+  column-gap: 16px;
+}
+
+#portfolio .portfolio-masonry .g1{
+  float: none !important;          /* override the float grid */
+  width: 100% !important;          /* override 31.333% desktop width */
+  display: inline-block;           /* required for columns */
+  vertical-align: top;
+  margin: 0 0 16px 0;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* keep your overlay working cleanly */
+#portfolio .image{ position: relative; }
+#portfolio .image img{ display:block; width:100%; height:auto; }
+#portfolio .image-overlay{ height:100%; }  /* you had 99% */
+
+@media only screen and (min-width: 600px){
+  #portfolio .portfolio-masonry{ column-count: 2; }
+}
+
+@media only screen and (min-width: 1024px){
+  #portfolio .portfolio-masonry{ column-count: 3; }
+}
+
 .image-overlay {
   position: absolute;
   z-index: 5;
