@@ -786,19 +786,21 @@ Change widths as necessary
   position: relative;
   margin-left: 1%;
   margin-right: 1%;
-  width: 98%; /* Stack on Mobile */
+  width: 98%; /* Stack vertically on Mobile */
 }
 
+/* Tablet: 2 columns */
 @media only screen and (min-width: 768px) {
   .g4 {
     display: inline;
     float: left;
-    width: 48%; /* 2 columns on Tablet */
+    width: 48%; 
   }
 }
 
+/* Desktop: 4 columns (All in one row) */
 @media only screen and (min-width: 1024px) {
   .g4 {
-    width: 23%; /* 4 columns on Desktop */
+    width: 23%; /* 23% width + 2% margins = 25% total per item */
   }
 }
