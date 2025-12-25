@@ -778,3 +778,27 @@ Change widths as necessary
   p, h2, h3 {orphans: 3; widows: 3}
   h2, h3{page-break-after: avoid}
 }
+
+
+/* Custom 4-column grid for contact info */
+.g4 {
+  display: block;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 98%; /* Stack on Mobile */
+}
+
+@media only screen and (min-width: 768px) {
+  .g4 {
+    display: inline;
+    float: left;
+    width: 48%; /* 2 columns on Tablet */
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .g4 {
+    width: 23%; /* 4 columns on Desktop */
+  }
+}
