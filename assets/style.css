@@ -282,3 +282,18 @@ footer p { color: var(--panel-muted); font-size: 12px; text-transform: uppercase
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: .01ms !important; }
 }
+
+/* Make all section labels larger */
+.eyebrow,
+.work-section .eyebrow,
+.evidence-section .eyebrow,
+.contact-section .eyebrow {
+  font-size: 20px;
+}
+
+/* Increase contrast only on dark backgrounds */
+.work-section .eyebrow,
+.evidence-section .eyebrow,
+.contact-section .eyebrow {
+  color: #9ed8e2;
+}
