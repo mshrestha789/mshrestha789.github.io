@@ -297,3 +297,33 @@ footer p { color: var(--panel-muted); font-size: 12px; text-transform: uppercase
 .contact-section .eyebrow {
   color: #9ed8e2;
 }
+
+/* Main readable content: minimum 18px */
+body {
+  font-size: 18px;
+}
+
+.hero-lede,
+.profile-number span,
+.focus-row strong,
+.section-heading > p,
+.project-summary,
+.result-list li,
+.compact-project > p:last-child,
+.timeline-content li,
+.education-item h3,
+.education-item p,
+.skills-intro > p:last-child,
+.skill-row p,
+.evidence-heading > p,
+.evidence-item figcaption,
+.publication-item h3,
+.publication-item p,
+.research-note h4,
+.research-note p,
+.archive-list h4,
+.archive-list p,
+.contact-copy > p:last-child,
+.contact-actions a {
+  font-size: 18px;
+}
