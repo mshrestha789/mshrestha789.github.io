@@ -72,7 +72,7 @@ nav a:hover { color: var(--teal); }
   gap: clamp(48px, 7vw, 108px);
   padding: 92px 0 108px;
 }
-.eyebrow { margin: 0 0 24px; color: var(--accent-dark); font-size: 15px; font-weight: 900; text-transform: uppercase; letter-spacing: .09em; }
+.eyebrow { margin: 0 0 18px; color: var(--accent-dark); font-size: 20px; font-weight: 900; text-transform: uppercase; letter-spacing: .09em; }
 .hero h1 { margin: 0; max-width: 760px; font-size: clamp(48px, 6vw, 78px); line-height: .98; letter-spacing: -.055em; }
 .hero-lede { max-width: 710px; margin: 30px 0 0; color: var(--ink-soft); font-size: clamp(17px, 1.8vw, 21px); line-height: 1.75; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
@@ -102,7 +102,7 @@ nav a:hover { color: var(--teal); }
 .work-section .eyebrow,
 .evidence-section .eyebrow {
   color: var(--accent);
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 900;
   letter-spacing: .09em;
 }
