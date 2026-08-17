@@ -93,7 +93,7 @@ nav a:hover { color: var(--teal); }
 .profile-number span { color: var(--panel-text); font-size: 18px; line-height: 1.5; }
 .focus-list { border-top: 1px solid var(--line-dark); }
 .focus-row { display: grid; grid-template-columns: 118px 1fr; gap: 22px; padding: 21px 30px; border-bottom: 1px solid var(--line-dark); }
-.focus-row span { color: var(--panel-muted); font: 800 14px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; text-transform: uppercase; letter-spacing: .035em; }
+.focus-row span { color: #9ed8e2; font: 800 18px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; text-transform: uppercase; letter-spacing: .035em; }
 .focus-row strong { color: var(--panel-text); font-size: 18px; line-height: 1.5; }
 .systems-footer { padding: 19px 30px; color: var(--panel-muted); font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
 
