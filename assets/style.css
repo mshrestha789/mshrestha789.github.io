@@ -181,9 +181,7 @@ nav a:hover { color: var(--teal); }
 .evidence-item:hover img { transform: scale(1.025); }
 .evidence-item figcaption { display: flex; gap: 12px; min-height: 66px; padding: 15px 17px; color: var(--panel-muted); font-size: 14px; }
 .evidence-item figcaption span { color: var(--achievement); font: 700 12px/1.6 ui-monospace, monospace; }
-.evidence-1, .evidence-4, .evidence-7, .evidence-10 { grid-column: span 6; }
-.evidence-2, .evidence-3, .evidence-5, .evidence-6, .evidence-8, .evidence-9, .evidence-11, .evidence-12 { grid-column: span 3; }
-.evidence-1 a, .evidence-7 a { height: 410px; }
+.evidence-item { grid-column: span 3; }
 .evidence-1 img { object-position: top center; }
 
 .publications-section { background: #f8faf9; }
